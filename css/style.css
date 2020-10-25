@@ -1172,7 +1172,10 @@ img {
   height: auto;
 }
 .video .brand {
-  width: 4.2rem;
+  width: 10rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 .video-frame {
   position: absolute;
@@ -2359,6 +2362,9 @@ pre .javascript .function {
 }
 .logo img {
   width: 4.2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 .totop {
   position: relative;

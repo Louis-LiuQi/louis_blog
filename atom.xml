@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>不只是前端</title>
+  
+  
+  <link href="http://blog.tolalago.com/atom.xml" rel="self"/>
+  
+  <link href="http://blog.tolalago.com/"/>
+  <updated>2020-10-25T08:21:24.613Z</updated>
+  <id>http://blog.tolalago.com/</id>
+  
+  <author>
+    <name>Louis</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>chrome headless启动方法</title>
+    <link href="http://blog.tolalago.com/2020/10/24/chrome_headless/"/>
+    <id>http://blog.tolalago.com/2020/10/24/chrome_headless/</id>
+    <published>2020-10-24T15:34:15.681Z</published>
+    <updated>2020-10-25T08:21:24.613Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1、打开终端执行："><a href="#1、打开终端执行：" class="headerlink" title="1、打开终端执行："></a>1、打开终端执行：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">google-chrome --headless --remote-debugging-port&#x3D;9222</span><br></pre></td></tr></table></figure><p>如果是mac下报 command not found 先执行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alias google-chrome&#x3D;&quot;&#x2F;Applications&#x2F;Google\ Chrome.app&#x2F;Contents&#x2F;MacOS&#x2F;Google\ Chrome&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1、打开终端执行：&quot;&gt;&lt;a href=&quot;#1、打开终端执行：&quot; class=&quot;headerlink&quot; title=&quot;1、打开终端执行：&quot;&gt;&lt;/a&gt;1、打开终端执行：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="服务器相关" scheme="http://blog.tolalago.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="nodeJS" scheme="http://blog.tolalago.com/tags/nodeJS/"/>
+    
+    <category term="web" scheme="http://blog.tolalago.com/tags/web/"/>
+    
+  </entry>
+  
+</feed>
